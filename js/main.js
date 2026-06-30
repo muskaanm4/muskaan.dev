@@ -37,7 +37,7 @@ function initHomeSnowballEasterEgg() {
 
     photo.addEventListener('click', () => {
         const snowball = document.createElement('img');
-        snowball.src = './img/captain-snowball.png';
+        snowball.src = './img/captain-snowball.webp';
         snowball.alt = 'Snowball flying by';
         snowball.className = 'snowball-flyby';
         snowball.style.left = '0px';
