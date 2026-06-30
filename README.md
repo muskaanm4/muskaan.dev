@@ -1,4 +1,4 @@
-# Digital Portfolio V2
+# Digital Portfolio Muskaan.dev
 
 A personal portfolio website built with plain HTML, CSS, and JavaScript.
 
