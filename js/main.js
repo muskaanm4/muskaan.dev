@@ -4,7 +4,32 @@ document.addEventListener('DOMContentLoaded', () => {
     initNavHighlight();
     initMobileNav();
     initHomeSnowballEasterEgg();
+    initThemeToggle();
 });
+
+function initThemeToggle() {
+    const toggle = document.querySelector('[data-theme-toggle]');
+    if (!toggle) return;
+
+    const storedTheme = localStorage.getItem('portfolio-theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const shouldUseDark = storedTheme ? storedTheme === 'dark' : prefersDark;
+
+    applyTheme(shouldUseDark);
+
+    toggle.addEventListener('click', () => {
+        const isDark = document.body.classList.contains('dark-theme');
+        applyTheme(!isDark);
+    });
+
+    function applyTheme(isDark) {
+        document.body.classList.toggle('dark-theme', isDark);
+        toggle.setAttribute('aria-pressed', String(isDark));
+        toggle.querySelector('.theme-toggle-icon').textContent = isDark ? '☀️' : '🌙';
+        toggle.querySelector('.theme-toggle-label').textContent = isDark ? 'Light' : 'Dark';
+        localStorage.setItem('portfolio-theme', isDark ? 'dark' : 'light');
+    }
+}
 
 function initHomeSnowballEasterEgg() {
     const photo = document.getElementById('heroPhoto');
