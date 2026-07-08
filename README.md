@@ -18,7 +18,7 @@ A personal portfolio website built with plain HTML, CSS, and JavaScript.
 - `img/` — images and assets
 
 ## Run locally
-Open `https://muskaanm4.github.io/Muskaan.dev/` in your browser to view this site. 
+Open https://muskaanm4.github.io/Muskaan.dev/ in your browser to view this site. 
 
 ## Notes
 This project is a static site, so no build step is required.
