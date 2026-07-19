@@ -20,7 +20,7 @@ p.s; Try to find the hidden easter eggs on my site
 - `img/` — images and assets
 
 ## Run locally
-Open https://muskaanm4.github.io/ in your browser to view this site. 
+Open [https://muskaanm4.github.io/](https://muskaan-dev.vercel.app/) in your browser to view this site. 
 
 ## Notes
 This project is a static site, so no build step is required.
