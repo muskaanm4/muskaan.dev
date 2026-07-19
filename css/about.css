@@ -284,6 +284,7 @@
     box-shadow: var(--shadow-hover);
 }
 
+/* Easter egg */
 .paw-print {
     position: fixed;
     width: 42px;
@@ -364,6 +365,7 @@
     transform: scale(1.15) rotate(3deg);
 }
 
+/* flex for devices */
 @media (max-width: 768px) {
     .intro-profile {
         padding: 1.5rem;
