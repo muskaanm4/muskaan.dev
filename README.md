@@ -1,6 +1,8 @@
 # Digital Portfolio Muskaan.dev
 
-A personal portfolio website built with plain HTML, CSS, and JavaScript.
+A personal portfolio website built with plain HTML, CSS, and JavaScript. 
+
+p.s; Try to find the hidden easter eggs on my site
 
 ## Features
 - Responsive multi-page layout
